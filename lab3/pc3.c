@@ -75,7 +75,7 @@ void producer(queue *queue_list, int *run_time, double *run_time2) {
 	t = clock();
 	time_t timer;
 	timer = time(NULL);
-       	if (cmd == 'X') {
+    if (cmd == 'X') {
      		buf.cmd = 'X';
 		add_queue(queue_list,buf);
 		t = clock() - t;
